@@ -19,7 +19,7 @@ do
     esac
 done
 
-wget http://www.haskell.org/ghc/dist/7.8.4/ghc-7.8.4-src.tar.xz
+wget --no-check-certificate http://www.haskell.org/ghc/dist/7.8.4/ghc-7.8.4-src.tar.xz
 tar xf ghc-7.8.4-src.tar.xz
 
 cd ghc-7.8.4
